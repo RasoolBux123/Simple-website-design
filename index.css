@@ -1,0 +1,332 @@
+body{
+
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+.main{
+
+    
+    width: 100%; 
+    background: linear-gradient( to top rgba(0,0,0,0.50)50% ,(0,0,0,0.50)50%,(0, 0,0,0.50)50%); 
+    background-image: url(1.jpg);
+
+     background-position:  center;
+     background-size: cover;
+     height: 109vh;
+
+    
+}
+
+.navbar{
+
+    height: 75px;
+    width: 1200px;
+    margin: auto;
+
+}
+.icon{
+
+
+
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.logo{
+
+    color: orangered;
+    font-size: 35px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    font-family: Arial;
+}
+
+.menu{
+
+    float: left;
+    width: 800px;
+    height: 70px;
+}
+ul{
+
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+   margin-top: 27px;
+   font-size: 14px;
+}
+
+
+ul li a{
+
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial;
+    transition: 0.4  ease-in-out;
+
+
+    
+}
+
+
+ul li a:hover{
+
+    color: mediumvioletred;
+}
+
+.search{
+
+    float: right;
+    margin-left: 270px;
+    width: 330px;
+   
+}
+
+.srch{
+    
+    width: 200px;
+    height: 40px;
+    font-family: Arial;
+    background: transparent;
+    border: 1px solid orangered;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.btn{
+
+       width: 100%;
+       height: 40px;
+       border:  2px solid orange;
+       background-color: orange;
+       margin-top: 13px;
+       font-size: 15px;
+       color: white;
+       border-top-right-radius: 5px;
+       border-top-left-radius: 5px;
+
+}
+.btn:focus{
+
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+
+}
+.container.par{
+
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+ .container h1{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+
+
+ }
+
+.container .cn{
+
+         width: 160px;
+       height: 40px;
+       font-size: 15px;
+       background-color: orangered;
+       border:  none;
+       margin-bottom: 10px;
+       margin-left: 20;
+       font-size: 18px;
+       border-radius: 10px;
+       cursor: pointer;
+       transition: .4s ease;
+
+}
+.container .cn a{
+    text-decoration: none;
+    color: white;
+   transition: 0.3 ease-in;
+
+
+
+}
+.cn:hover{
+    background-color: white;
+}
+
+.container span{
+    color: orangered;
+    font-size: 50px;
+}
+
+.form{
+
+    width: 380px;
+    height: 250px;
+    
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, (0,0,0,0.8)50%, (0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+
+
+    
+
+
+}
+
+.form h3{
+
+    width: 220px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 22px;
+    background-color: #fff;
+    color: orangered;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    
+
+
+}
+.form input{
+
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    background: transparent;
+color: orangered;
+border-left: none;
+border-right: none;
+border-top: none;
+border-bottom: 2px solid orangered;
+color: white;
+font-size: 15px;
+      letter-spacing: 1px;
+      margin-top: 30px;
+      font-family: sans-serif;
+
+
+}
+
+.btnn{
+      width: 240px;
+      height: 40px;
+      border: 6px;
+      color: white;
+      border-radius: 10px;
+      font-size: 17px;
+      font-family: sans-serif;
+      margin-top: 15px;
+background-color: orangered;
+ cursor: pointer;
+ transition: 0.4 ease;
+
+      
+
+}
+
+.btnn:hover{
+    color: orangered;
+    background-color: white;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.btnn a{
+
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+
+}
+
+.form .account{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    font-size: 17px;
+    text-align: center;
+
+}
+
+.form .link a{
+    text-decoration: none;
+    color: orangered;
+
+
+
+}
+
+.link{
+
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+
+}
+.iconn a{
+
+    color: #fff;
+    text-decoration: none;
+
+}
+.iconn i{
+
+    font-size: 15px;
+    color: #fff;
+    padding-left: 13px;
+    padding-top: 5px;
+    transition: 0.4 ease;
+}
+.iconn i:hover{
+
+    color: orangered;
+}
